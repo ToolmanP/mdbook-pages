@@ -1,0 +1,14 @@
+[book]
+authors = ["Yiyang Wu"]
+language = "zh-CN"
+multilingual = false
+src = "src"
+title = "Mdbook Playground"
+
+[output.html]
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
+
+[preprocessor.callouts]
+[preprocessor.mermaid]
+[preprocessor.toc]
+render = "html"
